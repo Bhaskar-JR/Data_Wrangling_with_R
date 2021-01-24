@@ -1,0 +1,7 @@
+I use a simply device to keep these straight:
+- (l)apply: List apply always returns a list
+- (s)apply: simplify apply tries to return simplified result
+- (v)apply: verify apply checks the return type conforms to user supplied example
+- (m)apply: multiple apply applies FUN to multiple vectors
+- (r)apply: recursive apply is essentially a flatmap
+- apply : no device here, only use on matrices, never data.frames
