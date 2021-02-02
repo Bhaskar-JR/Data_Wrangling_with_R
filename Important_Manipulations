@@ -1,0 +1,2 @@
+# Excluding row named "babysitters" from the dataframe. 
+prestige[!(row.names(prestige)) %in% c("babysitters"),]
